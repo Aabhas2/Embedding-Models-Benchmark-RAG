@@ -1,0 +1,77 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# UV cache
+.uv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset downloads and generated data
+data/
+datasets/
+downloads/
+
+# Local vector database and embeddings
+chroma/
+chroma_db/
+vectorstore/
+*. Chroma
+
+# Generated models and Hugging Face cache
+models/
+.cache/
+.huggingface/
+.cache/huggingface/
+.cache/torch/
+.cache/sentence_transformers/
+
+# Experiment outputs
+outputs/
+results/
+reports/
+logs/
+*.log
+
+# Generated plots and exported files
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.html
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers and linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
